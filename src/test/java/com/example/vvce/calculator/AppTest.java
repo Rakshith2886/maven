@@ -16,6 +16,13 @@ public class AppTest {
     @Test
     void testSubtract() {
     	assertEquals(15,app.sub(20,5));
+   
+    
     }
+    @Test
+    void testMultiplication() {
+    	assertEquals(30,app.multi(5, 6));
+    }
+    
    
 }
